@@ -5,7 +5,9 @@
   "main": "./src/index.ts",
   "scripts": {
     "build": "webpack",
-    "build:watch": "webpack --watch"
+    "build:watch": "webpack --watch",
+    "lint": "eslint src/ --ext .ts",
+    "lint:fix": "eslint src/ --ext .ts --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
   "devDependencies": {
     "@swc/core": "^1.5.7",
     "@types/webpack": "^5.28.5",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
     "swc-loader": "^0.2.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
