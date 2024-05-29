@@ -1,25 +1,25 @@
 /**
- * Factory method for create a new Element.
+ * Factory method for create a new VirtualElement.
  *
  * @param {string} type
  * @param {object|null} props
- * @param {Element[]} children
- * @returns {Element} 
+ * @param {VirtualElement[]} children
+ * @returns {VirtualElement}
  */
-export const createElement = (type: string, props: object|null = null, children: Element[] = []): Element => {
+export const createElement = (type: string, props: object|null = null, children: VirtualElement[] = []): VirtualElement => {
   if (props === null) {
     props = {};
   }
   
-  return new Element(type, props, children);
+  return new VirtualElement(type, props, children);
 }
 
-export class Element {
+export class VirtualElement {
   public type: string;
   public props: object;
-  public children: Element[];
+  public children: VirtualElement[];
   
-  constructor(type: string, props: object, chidren: Element[]) {
+  constructor(type: string, props: object, chidren: VirtualElement[]) {
     this.type = type;
     this.props = props;
     this.children = chidren;

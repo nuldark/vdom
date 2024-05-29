@@ -1,4 +1,4 @@
 export {
   createElement,
-  Element
+  VirtualElement,
 } from './dom';
