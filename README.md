@@ -2,7 +2,14 @@
 
 The virtual dom javascript implementation.
 
-A virtual dom javascript implementation.
+## TODO
+
+- [ ] Implement a diff algorithm.
+- [ ] Well documented code (TSDoc).
+- [ ] Write the documentation.
+- [ ] Add support for the JSX.
+- [ ] Add a unit tests.
+- [ ] Add a CI pipelines.
 
 ## License
 
