@@ -10,6 +10,8 @@ The virtual dom javascript implementation.
 - [ ] Add support for the JSX.
 - [ ] Add a unit tests.
 - [ ] Add a CI pipelines.
+- [ ] Improve development process.
+- [ ] Improve bundling for the browser support.
 
 ## License
 
