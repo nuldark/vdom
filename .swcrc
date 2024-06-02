@@ -1,11 +1,14 @@
 {
   "jsc": {
+    "target": "esnext",
     "parser": {
       "syntax": "typescript",
       "decorators": false,
       "dynamicImport": true
     },
-    "target": "esnext"
   },
-  "minify": true
+  "minify": true,
+  "module": {
+    "type": "esnext"
+  }
 }
