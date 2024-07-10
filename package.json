@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuldark/ts-virtual-dom.git"
+    "url": "git+https://github.com/nulxrd/ts-virtual-dom.git"
   },
   "keywords": [
     "ts-virtual-dom",
@@ -20,9 +20,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nuldark/ts-virtual-dom/issues"
+    "url": "https://github.com/nulxrd/ts-virtual-dom/issues"
   },
-  "homepage": "https://github.com/nuldark/ts-virtual-dom#readme",
+  "homepage": "https://github.com/nulxrd/ts-virtual-dom#readme",
   "devDependencies": {
     "@swc/core": "^1.5.7",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
